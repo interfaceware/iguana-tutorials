@@ -1,0 +1,12 @@
+{
+    "Samples": [
+        {
+            "Message": "MSH|^~\\&|iNTERFACEWARE|Lab|Main HIS|St. Micheals|20110213144932||ADT^A03|9B38584D9903051F0D2B52CC0148965775D2D23FE4C51BE060B33B6ED27DA820|P|2.6|\rEVN||20110213144532||||20110213145902|\rPID|||4525285^^^ADT1||Smith^Tracy||10-Feb-1998|F||Martian|86 Yonge St.^^ST. LOUIS^MO^51460||1185438871|8530031194||||10-346-6|284-517-569|\rNK1|1|Smith^Gary|Second Cousin|\rPV1||E||||||5101^Garland^Mary^F^^DR|||||||||||1318095^^^ADT1|||||||||||||||||||||||||20110213144956|\rOBX|||WT^WEIGHT||102|pounds|\rOBX|||HT^HEIGHT||32|cm|\rZID||tracy.smith@acmemed.com|||\r\n",
+            "Name": ""
+        },
+        {
+            "Message": "MSH|^~\\&|iNTERFACEWARE|EAST_RADIOLOGY|REPOSITORY|XYZ|||ORU^R01|MESA3b781ae8|P|2.3.1|\rPID|||CR3^^^ADT1||CRTHREE^PAUL||23-Oct-2011||||||4944951234|3085751||||PatientAcct|\rOBR|||||||20010501141500.0000||||||||||||||||||F|\rOBX|1|HD|SR Instance UID||1.113654.1.2001.30.2.1||||||F|\rOBX|2|TX|SR Text||Radiology Report History Cough Findings PA evaluation of the chest demonstrates the lungs to be expanded and clear.  Conclusions Normal PA chest x-ray.||||||F|\rZID||paul.crthree@mesa_rpt_mgr.com|||\r\n",
+            "Name": ""
+        }
+    ]
+}
