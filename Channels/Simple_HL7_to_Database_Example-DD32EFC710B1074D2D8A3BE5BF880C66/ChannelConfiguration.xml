@@ -1,0 +1,24 @@
+<channel
+   name="Simple HL7 to Database Example"
+   guid="DD32EFC710B1074D2D8A3BE5BF880C66"
+   description="This channel is an LLP listener that accepts incoming HL7 messages and then stores some of the information to a database. &#xD;&#xA;&#xD;&#xA;The Source component listens for messages on port 5145. &#xD;&#xA;&#xD;&#xA;The Destination component inserts some of the fields from the message into a SQLite database.  &#xD;&#xA;&#xD;&#xA;It is a good starting example for anyone looking at the need to take an HL7 stream of messages and put them into a database."
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="HL7_to_Database_Example-To-1IohZl78HBeDly"
+      commit_id="69fd6c2c750d47f9b84d4ef8405e1c139b446860"
+      commit_comment="First commit">
+      <dequeue_list>
+         <dequeue
+            source_guid="00000000000000000000000000000000"
+            dequeue_guid="5011E98CD99B68BC81044E9D5515580C"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_llp_listener
+      ack_vmd_path="/Applications/iNTERFACEWARE-Iguana.app/Contents/iNTERFACEWARE-Iguana/autoack.vmd"
+      port="5146"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      ack_style="fast"/>
+</channel>

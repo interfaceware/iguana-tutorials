@@ -1,0 +1,14 @@
+{
+    "LocalDependencies": [
+        "adt.vmd",
+        "tables.vmd"
+    ],
+    "LuaDependencies": [],
+    "OtherDependencies": [],
+    "timestamp": "1456235186",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
