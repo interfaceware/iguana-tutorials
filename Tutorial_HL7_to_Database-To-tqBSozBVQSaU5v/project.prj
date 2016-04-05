@@ -1,0 +1,15 @@
+{
+    "LocalDependencies": [
+        "create_database.lua",
+        "demo.vmd",
+        "demo_tables.vmd"
+    ],
+    "LuaDependencies": [],
+    "OtherDependencies": [],
+    "timestamp": "1459888093",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
