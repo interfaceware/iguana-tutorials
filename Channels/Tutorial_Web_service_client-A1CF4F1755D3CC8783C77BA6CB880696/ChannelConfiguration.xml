@@ -1,0 +1,24 @@
+<channel
+   name="Tutorial: Web service client"
+   guid="A1CF4F1755D3CC8783C77BA6CB880696"
+   description="A tutorial channel to illustrate how to connect to web services."
+   start_automatically="true"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="To_Web_Services-To-b2aaxz2bsgjRkd"
+      commit_id="b2604c42bbd479e192a3b504438d56fb114aa0c5"
+      commit_comment="Import Translators: Casey import 2.0">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="8A5A7FA49EAA13A4C83C13AC4CE8BB0A"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_llp_listener
+      ack_vmd_path="/Users/ctrauer/Documents/Iguana-6_0_4/autoack.vmd"
+      port="2023"
+      connection_timeout="30"
+      unlimited_connection_timeout="false"
+      ack_style="fast"/>
+</channel>
