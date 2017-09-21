@@ -1,0 +1,7 @@
+create table [procedures](
+	[ProcedureID]	integer,
+	[ProcedureDescription]	text,
+	[IndicationID]	integer,
+	[IndicationDescription]	text,
+   key([IndicationID])
+);

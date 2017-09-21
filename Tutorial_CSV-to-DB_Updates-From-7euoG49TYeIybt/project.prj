@@ -1,0 +1,17 @@
+{
+    "LocalDependencies": [
+        "demo/lookups/files.lua"
+    ],
+    "LuaDependencies": [
+        "demo.lookups.db.procedures"
+    ],
+    "OtherDependencies": [
+        "Procedures Indication Mappings.csv.zip"
+    ],
+    "timestamp": "1505999034",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}

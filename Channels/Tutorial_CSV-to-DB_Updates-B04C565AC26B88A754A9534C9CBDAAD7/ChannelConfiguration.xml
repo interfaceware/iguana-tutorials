@@ -1,0 +1,24 @@
+<channel
+   name="Tutorial: CSV-to-DB Updates"
+   guid="B04C565AC26B88A754A9534C9CBDAAD7"
+   description="We will import clinical code mappings from a CSV file and load them into a database, which will support our lookup web service."
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="Tutorial_CSV-to-DB_Updates-To-JISlw0at0ygYBT"
+      commit_id="9604d13083d97ff8c1661045f11f6424f5f5d8a3"
+      commit_comment="Import Translators: Import Casey&apos;s channels">
+      <dequeue_list>
+         <dequeue
+            source_name="self"
+            dequeue_guid="9AF3D87FE8B3F6D11A8D14F09396F6DD"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_mapper
+      guid="Tutorial_CSV-to-DB_Updates-From-7euoG49TYeIybt"
+      commit_id="9604d13083d97ff8c1661045f11f6424f5f5d8a3"
+      commit_comment="Import Translators: Import Casey&apos;s channels"
+      poll_time="10000">
+   </from_mapper>
+</channel>

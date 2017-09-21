@@ -1,0 +1,8 @@
+{
+    "Samples": [
+        {
+            "Message": "Procedure ID,Procedure Description,Indication ID,Indication Description\r11002,\"XRAY, abdomen-pelvis\",2968,peritoneal signs\r11002,\"XRAY, abdomen-pelvis\",3073718,\"Abd trauma, blunt, severe, hematuria\"\r11002,\"XRAY, abdomen-pelvis\",3244,diverticulitis\r11002,\"XRAY, abdomen-pelvis\",1055,\"bruit, abdomen pelvis\"\r11002,\"XRAY, abdomen-pelvis\",1753,obstruction - intestinal\r11002,\"XRAY, abdomen-pelvis\",3074217,SBO complete or high-grade suspected\r11002,\"XRAY, abdomen-pelvis\",3074218,SBO intermittent or low-grade suspected\r11002,\"XRAY, abdomen-pelvis\",3079770,\"AAA, f/u after repair (open or endovasc)\"\r11002,\"XRAY, abdomen-pelvis\",3230,lymphadenopathy\r11002,\"XRAY, abdomen-pelvis\",3073717,\"Abd trauma, blunt, moderate, hematuria microscopic\"\r11002,\"XRAY, abdomen-pelvis\",3073719,\"Abd trauma, penetrating\"\r11002,\"XRAY, abdomen-pelvis\",3080701,\"LLQ pain, suspect diverticulitis\"\r11002,\"XRAY, abdomen-pelvis\",3414,\"abscess, intestine\"\r11002,\"XRAY, abdomen-pelvis\",3240,abdominal distension\r11002,\"XRAY, abdomen-pelvis\",3255,diverticulosis",
+            "Name": "sample data"
+        }
+    ]
+}
